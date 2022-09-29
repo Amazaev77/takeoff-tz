@@ -1,0 +1,18 @@
+{
+  "contacts": [
+    {
+      "id": 6,
+      "name": "Alex",
+      "number": "+7977952417"
+    },
+    {
+      "id": 8,
+      "number": "+79882334544",
+      "name": "Johnson"
+    }
+  ],
+  "user": {
+    "email": "test@takeoff.ru",
+    "accessToken": "beb7f288-54d7-474a-9522-5109c75a14c3"
+  }
+}

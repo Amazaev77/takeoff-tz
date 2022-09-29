@@ -1,0 +1,12 @@
+.skeletonRow {
+  height: 67px;
+  > td {
+    padding: 0 !important;
+    > div {
+      padding: 22px;
+      width: 100%;
+      height: 100%;
+      background-color: #bebebe;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.table {
+  th,
+  td {
+    width: 265px;
+  }
+  .skeletonRow {
+    height: 67px;
+    padding: 10px;
+    background-color: grey;
+    border-collapse:collapse
+  }
+}

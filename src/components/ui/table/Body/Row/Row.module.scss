@@ -1,0 +1,35 @@
+.tableRow {
+  > th,
+  > td {
+    width: 290px;
+  }
+  &.edit {
+    > td > .textField,
+    > th > .textField {
+      width: 150px;
+    }
+    > .lastCell > .icons {
+      opacity: 1 !important;
+    }
+  }
+  .lastCell {
+    width: 170px;
+    .icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: opacity 100ms;
+      > button {
+        margin-right: 10px;
+      }
+    }
+  }
+  &:hover {
+    .lastCell {
+      .icons {
+        opacity: 1;
+      }
+    }
+  }
+}
