@@ -1,5 +1,7 @@
 node version 16.14.0
 
+
+
 ### Команда для запуска: 
 
 ```
@@ -7,3 +9,6 @@ node version 16.14.0
 - cd takeoff-tz && yarn install
 - yarn dev
 ```
+
+#### логин: test@takeoff.ru
+#### пароль: testpass
